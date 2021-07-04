@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: movies
-          image: jprisco/rotten-potatoes:v1
+          image: jprisco/rotten-potatoes
           ports:
             - containerPort: 5000
           env:
